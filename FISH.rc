@@ -1,0 +1,1207 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FISH.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.kor\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FISH.ico"
+IDR_FISHTYPE            ICON    DISCARDABLE     "res\\FISHDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_MAINFRAME_ALLSYSMENU_ICONS BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\sysmenu.bmp"
+IDB_COMBO_N             BITMAP  DISCARDABLE     "res\\btn\\btn_combo_N.bmp"
+IDB_COMBO_O             BITMAP  DISCARDABLE     "res\\btn\\btn_combo_O.bmp"
+IDB_COMBO_P             BITMAP  DISCARDABLE     "res\\btn\\btn_combo_P.bmp"
+IDB_TABCTRL_ICONS       BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\info1.bmp"
+IDB_SPLITTER_HORIZONTAL_BMP BITMAP  DISCARDABLE     "ctrl\\bmp\\spliter_horizontal.bmp"
+IDB_SPLITTER_VERTICAL_BMP BITMAP  DISCARDABLE     "ctrl\\bmp\\spliter_vertical.bmp"
+IDB_TRAY_CONNECTING     BITMAP  DISCARDABLE     "res\\tray\\tray_connecting.bmp"
+IDB_TRAY_DOWNLOADING    BITMAP  DISCARDABLE     "res\\tray\\tray_downloading.bmp"
+IDB_TRAY_OFF            BITMAP  DISCARDABLE     "res\\tray\\tray_off.bmp"
+IDB_TRAY_UNREAD         BITMAP  DISCARDABLE     "res\\tray\\tray_unread.bmp"
+IDB_REPOSITORY_ANIMATE_SANDTIMER BITMAP  DISCARDABLE     "view_repository\\bitmap\\animateTimer_01.bmp"
+IDB_REPOSITORY_ADDCHANNEL_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\addchannel\\r_ico2b.bmp"
+IDB_REPOSITORY_ADDCHANNEL_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\addchannel\\r_ico2.bmp"
+IDB_REPOSITORY_ADDCHANNEL_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\addchannel\\r_ico2a.bmp"
+IDB_REPOSITORY_ADDGROUP_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\addgroup\\r_ico1b.bmp"
+IDB_REPOSITORY_ADDGROUP_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\addgroup\\r_ico1.bmp"
+IDB_REPOSITORY_ADDGROUP_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\addgroup\\r_ico1a.bmp"
+IDB_REPOSITORY_ADDKEYWORD_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\addkeyword\\r_ico4b.bmp"
+IDB_REPOSITORY_ADDKEYWORD_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\addkeyword\\r_ico4.bmp"
+IDB_REPOSITORY_ADDKEYWORD_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\addkeyword\\r_ico4a.bmp"
+IDB_REPOSITORY_ADDSCRAP_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\addscrap\\r_ico3b.bmp"
+IDB_REPOSITORY_ADDSCRAP_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\addscrap\\r_ico3.bmp"
+IDB_REPOSITORY_ADDSCRAP_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\addscrap\\r_ico3a.bmp"
+IDB_REPOSITORY_CHANNEL_ICONS BITMAP  DISCARDABLE     "view_repository\\bitmap\\variousChannel_01.bmp"
+IDB_REPOSITORY_GROUP_ICONS BITMAP  DISCARDABLE     "view_repository\\bitmap\\variousGroup_01.bmp"
+IDB_REPOSITORY_GROUP_BG_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\groupBG_01.bmp"
+IDB_REPOSITORY_REFRESH_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\feedall\\r_ico5b.bmp"
+IDB_REPOSITORY_REFRESH_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\feedall\\r_ico5.bmp"
+IDB_REPOSITORY_REFRESH_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\feedall\\r_ico5a.bmp"
+IDB_LISTCTRL_COLUMNHEADER_SPAN_N BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderSpan.bmp"
+IDB_LISTCTRL_COLUMNHEADER_START_N BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderStart.bmp"
+IDB_LISTCTRL_COLUMNHEADER_END_N BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderEnd.bmp"
+IDB_LISTCTRL_HORIZONTAL_SCROLLBAR_THUMB BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\HorizontalScrollBarThumb.bmp"
+IDB_LISTCTRL_HORIZONTAL_SCROLLBAR_RIGHTARROW BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\HorizontalScrollBarRightArrow.bmp"
+IDB_LISTCTRL_HORIZONTAL_SCROLLBAR_SPAN BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\HorizontalScrollBarSpan.bmp"
+IDB_LISTCTRL_HORIZONTAL_SCROLLBAR_LEFTARROW BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\HorizontalScrollBarLeftArrow.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_UPARROW BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollBarUpArrow.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_SPAN BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollBarSpan.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_THUMB BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollBarThumb.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_DOWNARROW BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollBarDownArrow.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_TOP BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollbarTop.bmp"
+IDB_LISTCTRL_VERTICLE_SCROLLBAR_BOTTOM BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\VerticleScrollbarBottom.bmp"
+IDB_NOTIFIER_ICON       BITMAP  DISCARDABLE     "res\\Notifier\\icon.bmp"
+IDB_NOTIFIER_BG         BITMAP  DISCARDABLE     "res\\Notifier\\bg.bmp"
+IDB_LISTCTRL_ATTENTION_PROGRESSBAR BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\AttentionProgressBar.bmp"
+IDB_MAINFRAME_TOPRIGHT  BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_topright.bmp"
+IDB_MAINFRAME_TOPLEFT   BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_topleft.bmp"
+IDB_MAINFRAME_BOTTOMLEFT BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_bottomleft.bmp"
+IDB_MAINFRAME_BOTTOMRIGHT BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_bottomright.bmp"
+IDB_MAINFRAME_RIGHT     BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_right.bmp"
+IDB_MAINFRAME_BOTTOMCENTER BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_bottomcenter.bmp"
+IDB_MAINFRAME_LEFT      BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_left.bmp"
+IDB_REPOSITORY_DLG_BKGND BITMAP  DISCARDABLE     "view_repository\\bitmap\\subscribe_bk_bmp.bmp"
+IDB_SRCHL_BTN_P         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\LocalSearch_P.bmp"
+IDB_SRCHL_BTN_N         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\LocalSearch_N.bmp"
+IDB_SRCHL_BTN_O         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\LocalSearch_O.bmp"
+IDB_SRCHN_BTN_P         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_P.bmp"
+IDB_SRCHN_BTN_N         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_N.bmp"
+IDB_SRCHN_BTN_O         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_O.bmp"
+IDB_SRCHR_BTN_P         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_P.bmp"
+IDB_SRCHR_BTN_N         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_N.bmp"
+IDB_SRCHR_BTN_O         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\RangeBtn\\GlobalSearch_O.bmp"
+IDB_SRCH_NETWORK_LOADNUM_0_P BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_0_P.bmp"
+IDB_SRCH_NETWORK_0_N    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_0_N.bmp"
+IDB_SRCH_NETWORK_0_O    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_0_O.bmp"
+IDB_SRCH_NETWORK_0_P    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_0_P.bmp"
+IDB_SRCH_NETWORK_LOADNUM_0_N BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_0_N.bmp"
+IDB_SRCH_NETWORK_LOADNUM_0_O BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_0_O.bmp"
+IDB_SRCH_NETWORK_LOADNUM_1_P BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_1_P.bmp"
+IDB_SRCH_NETWORK_1_N    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_1_N.bmp"
+IDB_SRCH_NETWORK_1_O    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_1_O.bmp"
+IDB_SRCH_NETWORK_1_P    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_1_P.bmp"
+IDB_SRCH_NETWORK_LOADNUM_1_N BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_1_N.bmp"
+IDB_SRCH_NETWORK_LOADNUM_1_O BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_1_O.bmp"
+IDB_SRCH_NETWORK_LOADNUM_2_N BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_2_N.bmp"
+IDB_SRCH_NETWORK_LOADNUM_2_O BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_2_O.bmp"
+IDB_SRCH_NETWORK_LOADNUM_2_P BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_2_P.bmp"
+IDB_SRCH_NETWORK_2_N    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_2_N.bmp"
+IDB_SRCH_NETWORK_2_O    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_2_O.bmp"
+IDB_SRCH_NETWORK_2_P    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_2_P.bmp"
+IDB_SRCH_NETWORK_LOADNUM_3_N BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_3_N.bmp"
+IDB_SRCH_NETWORK_LOADNUM_3_O BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_3_O.bmp"
+IDB_SRCH_NETWORK_LOADNUM_3_P BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetConnection_3_P.bmp"
+IDB_SRCH_NETWORK_3_N    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_3_N.bmp"
+IDB_SRCH_NETWORK_3_O    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_3_O.bmp"
+IDB_SRCH_NETWORK_3_P    BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ConnectionRateBtn\\NetLoad_3_P.bmp"
+IDB_SRCHR_ALL_BTN_P     BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_All_P.bmp"
+IDB_SRCHR_ALL_BTN_D     BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_All_D.bmp"
+IDB_SRCHR_ALL_BTN_N     BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_All_N.bmp"
+IDB_SRCHR_ALL_BTN_O     BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_All_O.bmp"
+IDB_SRCHR_LOCAL_BTN_D   BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_Local_D.bmp"
+IDB_SRCHR_LOCAL_BTN_N   BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_Local_D.bmp"
+IDB_SRCHR_LOCAL_BTN_O   BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_Local_D.bmp"
+IDB_SRCHR_LOCAL_BTN_P   BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\BtnCenter\\btn_SrchRange_Local_D.bmp"
+IDB_SRCH_TAG            BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\SummitBtn\\btn_Tag_N.bmp"
+IDB_SRCH_GO             BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\SummitBtn\\btn_Go.bmp"
+IDB_SRCH_DLG_BG         BITMAP  DISCARDABLE     "view_search\\bitmap\\ITuneStyle\\ETC\\bg.bmp"
+IDB_VIEWINFO_BTN_SUBSCRIBE_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\subscribe_over.bmp"
+IDB_VIEWINFO_BTN_NEWTAB_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\newtab_down.bmp"
+IDB_VIEWINFO_BTN_NEWTAB_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\newtab_normal.bmp"
+IDB_VIEWINFO_BTN_NEWTAB_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\newtab_over.bmp"
+IDB_VIEWINFO_BTN_SAVE_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\save_down.bmp"
+IDB_VIEWINFO_BTN_SAVE_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\save_normal.bmp"
+IDB_VIEWINFO_BTN_SAVE_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\save_over.bmp"
+IDB_VIEWINFO_BTN_STYLE_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\style_down.bmp"
+IDB_VIEWINFO_BTN_STYLE_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\style_normal.bmp"
+IDB_VIEWINFO_BTN_STYLE_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\style_over.bmp"
+IDB_VIEWINFO_BTN_SUBSCRIBE_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\subscribe_down.bmp"
+IDB_VIEWINFO_BTN_SUBSCRIBE_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\function_btn\\subscribe_normal.bmp"
+IDB_TABCTRL_GOTO_MAINLIST_BTN_P BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\goto_mainlist_btn_press.bmp"
+IDB_TABCTRL_GOTO_MAINLIST_BTN_N BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\goto_mainlist_btn_normal.bmp"
+IDB_EXPLORERBAR_STOP_P  BITMAP  DISCARDABLE     "view_browser\\bitmap\\stop_press.bmp"
+IDB_EXPLORERBAR_BACK_N  BITMAP  DISCARDABLE     "view_browser\\bitmap\\back_normal.bmp"
+IDB_EXPLORERBAR_BACK_O  BITMAP  DISCARDABLE     "view_browser\\bitmap\\back_over.bmp"
+IDB_EXPLORERBAR_BACK_P  BITMAP  DISCARDABLE     "view_browser\\bitmap\\back_press.bmp"
+IDB_EXPLORERBAR_BKGND   BITMAP  DISCARDABLE     "view_browser\\bitmap\\bkgnd.bmp"
+IDB_EXPLORERBAR_FORWARD_N BITMAP  DISCARDABLE     "view_browser\\bitmap\\forward_normal.bmp"
+IDB_EXPLORERBAR_FORWARD_O BITMAP  DISCARDABLE     "view_browser\\bitmap\\forward_over.bmp"
+IDB_EXPLORERBAR_FORWARD_P BITMAP  DISCARDABLE     "view_browser\\bitmap\\forward_press.bmp"
+IDB_EXPLORERBAR_BKGND_MIDDLE BITMAP  DISCARDABLE     "view_browser\\bitmap\\bkgnd_middle.bmp"
+IDB_EXPLORERBAR_REFRESH_N BITMAP  DISCARDABLE     "view_browser\\bitmap\\refresh_normal.bmp"
+IDB_EXPLORERBAR_REFRESH_O BITMAP  DISCARDABLE     "view_browser\\bitmap\\refresh_over.bmp"
+IDB_EXPLORERBAR_REFRESH_P BITMAP  DISCARDABLE     "view_browser\\bitmap\\refresh_press.bmp"
+IDB_EXPLORERBAR_STOP_N  BITMAP  DISCARDABLE     "view_browser\\bitmap\\stop_normal.bmp"
+IDB_EXPLORERBAR_STOP_O  BITMAP  DISCARDABLE     "view_browser\\bitmap\\stop_over.bmp"
+IDB_EXPLORERBAR_STOP_D  BITMAP  DISCARDABLE     "view_browser\\bitmap\\stop_disable.bmp"
+IDB_EXPLORERBAR_BACK_D  BITMAP  DISCARDABLE     "view_browser\\bitmap\\back_disable.bmp"
+IDB_EXPLORERBAR_FORWARD_D BITMAP  DISCARDABLE     "view_browser\\bitmap\\forward_disable.bmp"
+IDB_EXPLORERBAR_REFRESH_D BITMAP  DISCARDABLE     "view_browser\\bitmap\\refresh_disable.bmp"
+IDB_EXPLORERBAR_COMBO_BTN BITMAP  DISCARDABLE     "view_browser\\bitmap\\combobox_btn.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT3_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next3_over.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK1_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back1_down.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK1_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back1_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK1_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back1_over.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK2_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back2_down.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK2_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back2_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK2_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back2_over.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK3_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back3_down.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK3_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back3_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_BACK3_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\back3_over.bmp"
+IDB_VIEWINFO_NAV_CENTER_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\center_down.bmp"
+IDB_VIEWINFO_NAV_CENTER_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\center_over.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT1_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next1_down.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT1_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next1_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT3_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next3_down.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT3_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next3_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT1_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next1_over.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT2_P BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next2_down.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT2_N BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next2_normal.bmp"
+IDB_VIEWINFO_NAV_BTN_NEXT2_O BITMAP  DISCARDABLE     "view_navigationpane\\bitmap\\navigation_btn\\next2_over.bmp"
+IDB_SUBDLG_LEFT         BITMAP  DISCARDABLE     "res\\CustomDlg\\outline_left.bmp"
+IDB_SUBDLG_RIGHT        BITMAP  DISCARDABLE     "res\\CustomDlg\\outline_right.bmp"
+IDB_SUBDLG_TITLE        BITMAP  DISCARDABLE     "res\\CustomDlg\\Title.bmp"
+IDB_SUBDLG_LOGO         BITMAP  DISCARDABLE     "res\\CustomDlg\\Logo.bmp"
+IDB_SUBDLG_BTM          BITMAP  DISCARDABLE     "res\\CustomDlg\\outline_bottom.bmp"
+IDB_TABCTRL_SELECT_BKGND_SPAN BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_sel_span.bmp"
+IDB_TABCTRL_DESELECT_BKGND_LEFT BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_desel_left.bmp"
+IDB_TABCTRL_DESELECT_BKGND_RIGHT BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_desel_right.bmp"
+IDB_TABCTRL_DESELECT_BKGND_SPAN BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_desel_span.bmp"
+IDB_TABCTRL_SELECT_BKGND_LEFT BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_sel_left.bmp"
+IDB_TABCTRL_SELECT_BKGND_RIGHT BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_sel_right.bmp"
+IDB_BTN_CANCEL1         BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\btn_cancel_set.bmp"
+IDB_BTN_OK              BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\btn_ok_set.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_L BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_subtitle_left.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_M BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_subtitle_mid.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_R BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_subtitle_right.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_C_ADD BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_c.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_G_ADD BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_g.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_KEYWORD BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_k.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_SCRAP BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_s.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_SEARCH BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_se.bmp"
+IDB_REPOSITORY_PROPERTYDLG_TITLE BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\Property_Title.bmp"
+IDB_LOGINDLG_HELP       BITMAP  DISCARDABLE     "res\\LoginDlg\\login_help_tap.bmp"
+IDB_REPOSITORY_ANIMATE_NEW_ITEM BITMAP  DISCARDABLE     "view_repository\\bitmap\\animateNew.bmp"
+IDB_LISTCTRL_NEW_POST   BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\listctrl_new_item.bmp"
+IDB_BTN_PREV            BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\btn_prev_set.bmp"
+IDB_BTN_NEXT            BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\btn_next_set.bmp"
+IDB_TABCTRL_PREV_N      BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_prev_btn_n.bmp"
+IDB_TABCTRL_NEXT_N      BITMAP  DISCARDABLE     "view_tabctrl\\bitmap\\tab_next_btn_n.bmp"
+IDB_LISTCTRL_COLUMNHEADER_START_O BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderStart_O.bmp"
+IDB_LISTCTRL_COLUMNHEADER_END_O BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderEnd_O.bmp"
+IDB_LISTCTRL_COLUMNHEADER_SPAN_O BITMAP  DISCARDABLE     "view_listctrl\\bitmap\\ColumnHeaderSpan_O.bmp"
+IDB_LOGINDLG_BTN_FIND_N BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_idpasswd_find_n.bmp"
+IDB_LOGINDLG_BTN_REG_D  BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_reg_d.bmp"
+IDB_LOGINDLG_BTN_REG_N  BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_reg_n.bmp"
+IDB_LOGINDLG_BTN_FIND_D BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_idpasswd_find_d.bmp"
+IDB_LOGINDLG_AUTOLOGIN_T BITMAP  DISCARDABLE     "res\\LoginDlg\\t_auto_login.bmp"
+IDB_LOGINDLG_ID_T       BITMAP  DISCARDABLE     "res\\LoginDlg\\t_id.bmp"
+IDB_LOGINDLG_PASSWD_SAVE_T BITMAP  DISCARDABLE     "res\\LoginDlg\\t_passwd_save.bmp"
+IDB_LOGINDLG_PASSWD_T   BITMAP  DISCARDABLE     "res\\LoginDlg\\t_passwd.bmp"
+IDB_LOGINDLG_TITLE      BITMAP  DISCARDABLE     "res\\LoginDlg\\title.bmp"
+IDB_LOGINDLG_BG_CONTENTS BITMAP  DISCARDABLE     "res\\LoginDlg\\bg_contents.bmp"
+IDB_LOGINDLG_BG_TOP     BITMAP  DISCARDABLE     "res\\LoginDlg\\bg_top.bmp"
+IDB_LOGINDLG_BG_BOTTOM  BITMAP  DISCARDABLE     "res\\LoginDlg\\bg_bottom.bmp"
+IDB_LOGINDLG_BG_MID     BITMAP  DISCARDABLE     "res\\LoginDlg\\bg_mid.bmp"
+IDB_LOGINDLG_LOGINBTN_N BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_login_n.bmp"
+IDB_LOGINDLG_LOGINBTN_O BITMAP  DISCARDABLE     "res\\LoginDlg\\btn_login_d.bmp"
+IDB_BTN_CLOSE_N         BITMAP  DISCARDABLE     "res\\btn\\btn_close_n.bmp"
+IDB_BTN_CLOSE_D         BITMAP  DISCARDABLE     "res\\btn\\btn_close_d.bmp"
+IDB_BTN_PREV_N          BITMAP  DISCARDABLE     "res\\btn\\btn_prev_n.bmp"
+IDB_BTN_CANCEL_D        BITMAP  DISCARDABLE     "res\\btn\\btn_cancel_d.bmp"
+IDB_BTN_CANCEL_DISABLE  BITMAP  DISCARDABLE     "res\\btn\\btn_cancel_disable.bmp"
+IDB_BTN_CANCEL_N        BITMAP  DISCARDABLE     "res\\btn\\btn_cancel_n.bmp"
+IDB_BTN_NEXT_D          BITMAP  DISCARDABLE     "res\\btn\\btn_next_d.bmp"
+IDB_BTN_NEXT_DISABLE    BITMAP  DISCARDABLE     "res\\btn\\btn_next_disable.bmp"
+IDB_BTN_NEXT_N          BITMAP  DISCARDABLE     "res\\btn\\btn_next_n.bmp"
+IDB_BTN_OK_D            BITMAP  DISCARDABLE     "res\\btn\\btn_ok_d.bmp"
+IDB_BTN_OK_DISABLE      BITMAP  DISCARDABLE     "res\\btn\\btn_ok_disable.bmp"
+IDB_BTN_OK_N            BITMAP  DISCARDABLE     "res\\btn\\btn_ok_n.bmp"
+IDB_BTN_PREV_D          BITMAP  DISCARDABLE     "res\\btn\\btn_prev_d.bmp"
+IDB_BTN_PREV_DISABLE    BITMAP  DISCARDABLE     "res\\btn\\btn_prev_disable.bmp"
+IDB_SUBDLG_TITLE_RIGHT  BITMAP  DISCARDABLE     "res\\CustomDlg\\title_right.bmp"
+IDB_SUBDLG_TITLE_LEFT   BITMAP  DISCARDABLE     "res\\CustomDlg\\title_left.bmp"
+IDB_SUBDLG_TITLE_MID    BITMAP  DISCARDABLE     "res\\CustomDlg\\title_mid.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_SEARCH_MODIFY BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_se_m.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_C_MODIFY BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_c_m.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_G_MODIFY BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_g_m.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_KEYWORD_MODIFY BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_k_m.bmp"
+IDB_REPOSITORY_PROPERTYDLG_SUBTITLE_SCRAP_MODIFY BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\img_t_s_m.bmp"
+IDB_REPOSITORY_PROPERTYDLG_BOX BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\box.bmp"
+IDB_MAINFRAME_TOP_SPAN  BITMAP  DISCARDABLE     "view_mainframe\\bitmap\\mainframe_topspan.bmp"
+IDB_REPOSITORY_GRP_EXPANDED_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark_N.bmp"
+IDB_REPOSITORY_GRP_EXPANDED_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark_O.bmp"
+IDB_REPOSITORY_GRP_EXPANDED_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark_P.bmp"
+IDB_REPOSITORY_DLG_BKGND_TOP BITMAP  DISCARDABLE     "view_repository\\bitmap\\subscribe_bk_bmp_top.bmp"
+IDB_REPOSITORY_DLG_BKGND_BOTTOM BITMAP  DISCARDABLE     "view_repository\\bitmap\\subscribe_bk_bmp_bottom.bmp"
+IDB_REPOSITORY_DLG_BKGND_LEFT BITMAP  DISCARDABLE     "view_repository\\bitmap\\subscribe_bk_bmp_left.bmp"
+IDB_REPOSITORY_DLG_BKGND_RIGHT BITMAP  DISCARDABLE     "view_repository\\bitmap\\subscribe_bk_bmp_right.bmp"
+IDB_REPOSITORY_GROUP_BG_S BITMAP  DISCARDABLE     "view_repository\\bitmap\\groupBG_02.bmp"
+IDB_MB_QUESTION         BITMAP  DISCARDABLE     "res\\MessageBox\\question.bmp"
+IDB_MB_ASTERISK         BITMAP  DISCARDABLE     "res\\MessageBox\\asterisk.bmp"
+IDB_MB_EXCLAMATION      BITMAP  DISCARDABLE     "res\\MessageBox\\exclamation.bmp"
+IDB_MB_HAND             BITMAP  DISCARDABLE     "res\\MessageBox\\hand.bmp"
+IDB_BTN_YES_N           BITMAP  DISCARDABLE     "res\\btn\\btn_yes_n.bmp"
+IDB_BTN_NOALL_D         BITMAP  DISCARDABLE     "res\\btn\\btn_no_all_d.bmp"
+IDB_BTN_NOALL_DISABLE   BITMAP  DISCARDABLE     "res\\btn\\btn_no_all_disable.bmp"
+IDB_BTN_NOALL_N         BITMAP  DISCARDABLE     "res\\btn\\btn_no_all_n.bmp"
+IDB_BTN_NO_D            BITMAP  DISCARDABLE     "res\\btn\\btn_no_d.bmp"
+IDB_BTN_NO_DISABLE      BITMAP  DISCARDABLE     "res\\btn\\btn_no_disable.bmp"
+IDB_BTN_NO_N            BITMAP  DISCARDABLE     "res\\btn\\btn_no_n.bmp"
+IDB_BTN_YESALL_N        BITMAP  DISCARDABLE     "res\\btn\\btn_yes_all_n.bmp"
+IDB_BTN_YESALL_D        BITMAP  DISCARDABLE     "res\\btn\\btn_yes_all_d.bmp"
+IDB_BTN_YESALL_DISABLE  BITMAP  DISCARDABLE     "res\\btn\\btn_yes_all_disable.bmp"
+IDB_BTN_YES_D           BITMAP  DISCARDABLE     "res\\btn\\btn_yes_d.bmp"
+IDB_BTN_YES_DISABLE     BITMAP  DISCARDABLE     "res\\btn\\btn_yes_disable.bmp"
+IDB_TRAY_NORMAL         BITMAP  DISCARDABLE     "res\\tray\\tray_normal.bmp"
+IDB_BTN_DOT_D           BITMAP  DISCARDABLE     "res\\btn\\btn_dot_d.bmp"
+IDB_BTN_DOT_N           BITMAP  DISCARDABLE     "res\\btn\\btn_dot_n.bmp"
+IDB_BTN_APPLY_D         BITMAP  DISCARDABLE     "res\\btn\\btn_apply_d.bmp"
+IDB_BTN_APPLY_DISABLE   BITMAP  DISCARDABLE     "res\\btn\\btn_apply_disable.bmp"
+IDB_BTN_APPLY_N         BITMAP  DISCARDABLE     "res\\btn\\btn_apply_n.bmp"
+IDB_BTN_YES_O           BITMAP  DISCARDABLE     "res\\btn\\btn_yes_o.bmp"
+IDB_BTN_APPLY_O         BITMAP  DISCARDABLE     "res\\btn\\btn_apply_o.bmp"
+IDB_BTN_CANCEL_O        BITMAP  DISCARDABLE     "res\\btn\\btn_cancel_o.bmp"
+IDB_BTN_NEXT_O          BITMAP  DISCARDABLE     "res\\btn\\btn_next_o.bmp"
+IDB_BTN_NOALL_O         BITMAP  DISCARDABLE     "res\\btn\\btn_no_all_o.bmp"
+IDB_BTN_NO_O            BITMAP  DISCARDABLE     "res\\btn\\btn_no_o.bmp"
+IDB_BTN_OK_O            BITMAP  DISCARDABLE     "res\\btn\\btn_ok_o.bmp"
+IDB_BTN_PREV_O          BITMAP  DISCARDABLE     "res\\btn\\btn_prev_o.bmp"
+IDB_BTN_YESALL_O        BITMAP  DISCARDABLE     "res\\btn\\btn_yes_all_o.bmp"
+IDB_REPOSITORY_PROPERTYDLG_ICON_CHANNEL BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\ico_channel.bmp"
+IDB_REPOSITORY_PROPERTYDLG_ICON_GROUP BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\ico_group.bmp"
+IDB_REPOSITORY_PROPERTYDLG_ICON_KEYWORD BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\ico_key.bmp"
+IDB_REPOSITORY_PROPERTYDLG_ICON_SCRAP BITMAP  DISCARDABLE     "view_repository\\bitmap\\propertyDlg\\ico_scrap.bmp"
+IDB_REPOSITORY_GRP_EXPANDED2_N BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark2_N.bmp"
+IDB_REPOSITORY_GRP_EXPANDED2_O BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark2_O.bmp"
+IDB_REPOSITORY_GRP_EXPANDED2_P BITMAP  DISCARDABLE     "view_repository\\bitmap\\expanded_mark2_P.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_ATLBR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\tCtrl+O",               ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Select All\tCtrl+A",          ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "종료(&X)",                    ID_APP_EXIT
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "FISH 정보(&A)...",            ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_FOR_EVENT_HANDLING MENU DISCARDABLE 
+BEGIN
+    POPUP "ADDRBAR"
+    BEGIN
+        MENUITEM "ADDRBAR",                     ID_ALT_D_FOCUS_ON_ADDRBAR
+    END
+END
+
+IDR_MENU_SUBSCRIBE MENU DISCARDABLE 
+BEGIN
+    POPUP "Subscribe"
+    BEGIN
+        MENUITEM "그룹추가 (&G)",               ID_REPOS_CM_ADD_GROUP
+        MENUITEM "채널 추가 (&C)",              ID_REPOS_CM_ADD_CHANNEL
+        MENUITEM "스크랩 추가 (&S)",            ID_REPOS_CM_ADD_SCRAP
+        MENUITEM "키워드 추가 (&K)",            ID_REPOS_CM_ADD_KEYWORD
+        MENUITEM SEPARATOR
+        MENUITEM "OPML 가져오기 (&I)",          ID_REPOS_CM_OPML_IMPORT
+        MENUITEM "OPML 내보내기 (&E)",          ID_REPOS_CM_OPML_EXPORT
+        MENUITEM "새로고침 (&R)",               ID_REPOS_CM_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "삭제 (&D)",                   ID_REPOS_CM_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "이름 변경 (&N)",              ID_REPOS_CM_RENAME
+        MENUITEM "설정변경 (&P)",               ID_REPOS_CM_PROPERTY
+        MENUITEM SEPARATOR
+        MENUITEM "모든 포스트 읽기 (&A)",       ID_VIEW_CHANNELPOST_ALL
+        MENUITEM "읽지않은 포스트 읽기 (&U)",   ID_VIEW_CHANNELPOST_UNREAD
+        MENUITEM SEPARATOR
+        MENUITEM "모두 읽은 상태로",            ID_VIEW_CHANNEL_MARK_AS_READ
+        MENUITEM "모두 읽지 않은 상태로",       ID_VIEW_CHANNEL_MARK_AS_UNREAD
+
+    END
+END
+
+IDR_MENU_TRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "환경설정(&P)",                ID_PROPERTIES
+        MENUITEM "열기(&O)",                    ID_TRAY_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                  ID_TRAY_EXIT
+    END
+END
+
+IDR_MENU_VIEWINFO MENU DISCARDABLE 
+BEGIN
+    POPUP "HEADERMENU"
+    BEGIN
+        MENUITEM "분류",                        ID_LIST_HD_PUBLISHER
+        MENUITEM "제목",                        ID_LIST_HD_SUBJECT
+        MENUITEM "날짜",                        ID_LIST_HD_DATE
+        MENUITEM "글쓴이",                      ID_LIST_HD_AUTHOR
+    END
+    POPUP "LISTMENU"
+    BEGIN
+        MENUITEM "포스트 삭제 (&D)",            ID_LIST_ITEM_DELETE
+        MENUITEM "페이퍼 작성 (&W)",            ID_LIST_ITEM_GENERATE_HTML
+        MENUITEM "출처 바로가기(&G)",           ID_LIST_ITEM_GOLINK
+    END
+END
+
+IDR_SCRAP_MGR MENU DISCARDABLE 
+BEGIN
+    POPUP "_SCR_MGR_", MENUBREAK
+    BEGIN
+        MENUITEM "새 스크랩 채널 생성(&C)",     ID_CREATE_NEW_SCRAP_MGR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_FOCUSON_ADDR_COMBO,  VIRTKEY, ALT, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FISH 정보"
+FONT 9, "Tahoma"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "FISH 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_VIEW_INFORMATION DIALOG DISCARDABLE  0, 0, 219, 239
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 8, "Tahoma"
+BEGIN
+    CONTROL         "MAINLIST",IDC_INFORMATION_GOTO_MAINLIST_BTN,"Button",
+                    BS_OWNERDRAW | BS_BITMAP | BS_FLAT | WS_TABSTOP,0,0,50,
+                    14
+END
+
+IDD_DLG_SUBSCRIBE DIALOG DISCARDABLE  0, 0, 187, 203
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 12, "Tahoma"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_REPOSITORY,"SysTreeView32",
+                    TVS_FULLROWSELECT | WS_TABSTOP,0,56,186,147
+    PUSHBUTTON      "그룹추가",IDC_BTN_ADDGROUP,0,0,40,12,BS_FLAT
+    PUSHBUTTON      "채널추가",IDC_BTN_ADDCHANNEL,42,0,47,12,BS_FLAT
+    PUSHBUTTON      "스크랩 추가",IDC_BTN_ADDSCRAP,0,15,40,12,BS_FLAT
+    PUSHBUTTON      "키워드 추가",IDC_BTN_ADDKEYWORD,43,15,46,11,BS_FLAT
+    PUSHBUTTON      "새로고침",IDC_BTN_REFRESH,0,30,40,13,BS_FLAT
+END
+
+IDD_DLG_INFORMATION DIALOG DISCARDABLE  0, 0, 187, 163
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 12, "Tahoma"
+BEGIN
+END
+
+IDD_DLG_BROWSER DIALOGEX 0, 0, 187, 99
+STYLE DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 12, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXPLORER,"{8856F961-340A-11D0-A96B-00C04FD705A2}",
+                    NOT WS_VISIBLE | WS_TABSTOP,10,10,150,75
+END
+
+IDD_CHG_PORT_DLG DIALOG DISCARDABLE  0, 0, 147, 138
+STYLE WS_POPUP
+FONT 12, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_CPD_PORT,14,75,65,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER
+    CONTROL         "",IDOK,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,13,
+                    110,45,14
+    CONTROL         "",IDCANCEL,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,
+                    60,109,45,14
+END
+
+IDD_DLG_RSSLIST DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 12, "Tahoma"
+BEGIN
+    CONTROL         "List1",IDC_LIST_RSS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,7,173,85
+END
+
+IDD_DLG_RSSMAIN DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 12, "Tahoma"
+BEGIN
+END
+
+IDD_DLG_EXPLORERBAR DIALOG DISCARDABLE  0, 0, 272, 102
+STYLE WS_CHILD
+FONT 12, "Tahoma"
+BEGIN
+    CONTROL         "Button1",IDC_BUTTON1,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,7,7,7,14
+    CONTROL         "Button2",IDC_BUTTON2,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,31,7,6,14
+    CONTROL         "Button3",IDC_BUTTON3,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,49,7,6,14
+    CONTROL         "Button4",IDC_BUTTON4,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,65,7,6,14
+    COMBOBOX        IDC_COMBO_GO,94,7,48,88,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_REPOSITORY_ITEM_PROPERTY DIALOGEX 0, 0, 258, 191
+STYLE WS_POPUP
+FONT 12, "Tahoma", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TITLE,56,51,195,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_COMMENT,56,68,195,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_KEYWORD,56,84,195,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_XML,56,100,195,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_HTML,56,117,195,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    COMBOBOX        IDC_COMBO_INTERVAL,51,157,48,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TARGET_GROUP,179,156,48,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Feed URL 자동검색",IDC_CHECK_AUTO_SEARCH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,44,174,83,10
+    CONTROL         "검색 대상에서 제외",IDC_CHECK_ISSEARCH,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,143,174,91,
+                    10
+    LISTBOX         IDC_LIST_RSSURL,95,23,125,13,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "채널명",IDC_STATIC_TITLE,9,53,43,8,0,WS_EX_TRANSPARENT
+    LTEXT           "설명",IDC_STATIC_COMMENT,9,70,43,8,0,WS_EX_TRANSPARENT
+    LTEXT           "갱신주기",IDC_STATIC_INTERVAL,9,159,43,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "XML 주소",IDC_STATIC_XML,9,102,43,8,0,WS_EX_TRANSPARENT
+    LTEXT           "HTML 주소",IDC_STATIC_HTML,9,119,43,8,NOT WS_GROUP,
+                    WS_EX_TRANSPARENT
+    LTEXT           "대상그룹",IDC_STATIC_TARGET_GROUP,140,159,37,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "키워드",IDC_STATIC_KEYWORD,9,86,43,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "wizardComment",IDC_STATIC_WIZARD_COMMENT,9,138,159,8
+END
+
+IDD_DLG_SEARCH DIALOG DISCARDABLE  0, 0, 206, 46
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 8, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDIT_SEARCH,24,0,119,14,NOT WS_BORDER
+    CONTROL         "",IDC_BUTTON_SRCH,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,144,16,14,14
+    CONTROL         "",IDC_BTN_SRCH_R_N,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,158,16,21,14
+    CONTROL         "",IDC_BUTTON_TAG,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,144,0,14,14
+    CONTROL         "",IDC_BTN_NETWORK,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,0,16,14,14
+    CONTROL         "",IDC_BTN_SRCH_R,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,158,0,20,14
+    CONTROL         "",IDC_BTN_NETWORK_LOAD,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,0,0,14,14
+END
+
+IDD_VIEW_NAVIGATIONPANE DIALOGEX 0, 0, 279, 28
+STYLE WS_CHILD
+FONT 9, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "SAVE",IDC_VIEWLIST_FUNCTION_SAVE,"Button",BS_OWNERDRAW | 
+                    BS_BITMAP | BS_FLAT | WS_TABSTOP,261,7,11,14,
+                    WS_EX_TRANSPARENT
+    CONTROL         "STYLE",IDC_VIEWLIST_FUNCTION_STYLE,"Button",
+                    BS_OWNERDRAW | BS_BITMAP | BS_FLAT | WS_TABSTOP,251,7,9,
+                    14,WS_EX_TRANSPARENT
+    CONTROL         "NEW TAB",IDC_VIEWLIST_FUNCTION_NEWTAB,"Button",
+                    BS_OWNERDRAW | BS_BITMAP | BS_FLAT | WS_TABSTOP,242,7,9,
+                    14,WS_EX_TRANSPARENT
+    CONTROL         "SUBSCRIBE",IDC_VIEWLIST_FUNCTION_SUBSCRIBE,"Button",
+                    BS_OWNERDRAW | BS_BITMAP | BS_FLAT | WS_TABSTOP,232,7,9,
+                    14,WS_EX_TRANSPARENT
+    CONTROL         "FIRST",IDC_BTN_FIRST,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    BS_FLAT | WS_TABSTOP,4,7,6,14,WS_EX_TRANSPARENT
+    CONTROL         "DblBack",IDC_BTN_DBLBACK,"Button",BS_OWNERDRAW | 
+                    BS_BITMAP | BS_FLAT | WS_TABSTOP,14,7,6,14,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Back",IDC_BTN_BACK,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    BS_FLAT | WS_TABSTOP,23,7,6,14,WS_EX_TRANSPARENT
+    CONTROL         "Next",IDC_BTN_NEXT,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    BS_FLAT | WS_TABSTOP,61,7,8,14,WS_EX_TRANSPARENT
+    CONTROL         "DblNext",IDC_BTN_DBLNEXT,"Button",BS_OWNERDRAW | 
+                    BS_BITMAP | BS_FLAT | WS_TABSTOP,71,7,6,14,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Last",IDC_BTN_LAST,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    BS_FLAT | WS_TABSTOP,80,7,6,14,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_POST_BTN,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    BS_FLAT | WS_TABSTOP,31,7,24,14,WS_EX_TRANSPARENT
+    LTEXT           "Static",IDC_ADDRESS_MSG,117,13,84,8
+END
+
+IDD_DLG_PROPERTIES DIALOG DISCARDABLE  0, 0, 327, 191
+STYLE WS_POPUP
+FONT 12, "Tahoma"
+BEGIN
+    PUSHBUTTON      "적용",IDC_BTN_APPLY,145,170,50,14
+    DEFPUSHBUTTON   "OK",IDOK,209,170,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,270,170,50,14
+    LISTBOX         IDC_LIST_MENU,7,24,82,142,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_PROP_GENERAL DIALOG DISCARDABLE  0, 0, 305, 146
+STYLE WS_CHILD
+FONT 12, "Tahoma"
+BEGIN
+    CONTROL         "윈도우 시작시 FISH 자동 실행",IDC_CHK_AUTOSTART,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,34,111,10
+    CONTROL         "종료버튼 클릭시 프로그램 종료",IDC_CHK_CLOSEEXIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,47,115,10
+    CONTROL         "알림창 사용하기",IDC_CHK_USEINFORMWND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,75,68,10
+    CONTROL         "검색결과 항상 저장",IDC_CHK_SEARCHALWAYSSAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,97,77,10
+    EDITTEXT        IDC_EDIT_USERPATH,22,120,187,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "P",IDC_BUTTON_USERPATH,5,119,15,14
+    LTEXT           "일반설정",IDC_STATIC_NORMAL,6,5,29,8
+    LTEXT           "실행설정",IDC_STATIC_RUN,6,22,29,8
+    LTEXT           "알림창 설정",IDC_STATIC_INFOWND,6,64,39,8
+    LTEXT           "사용자 폴더 설정",IDC_STATIC_USERPATH,6,111,55,8
+    LTEXT           "검색 설정",IDC_STATIC_SEARCH,6,87,32,8
+END
+
+IDD_DLG_PROP_NETWORK DIALOG DISCARDABLE  0, 0, 171, 141
+STYLE WS_CHILD
+FONT 12, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDIT_PORT,63,33,40,14,ES_NUMBER | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_MAXUPLOAD,78,71,40,14,ES_NUMBER | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_MAXDOWNLOAD,80,93,40,14,ES_NUMBER | NOT 
+                    WS_BORDER
+    LTEXT           "네트워크 설정",IDC_STATIC_NETWORK,5,5,56,8
+    LTEXT           "네트워크 포트 설정",IDC_STATIC_PORT,5,22,78,8
+    LTEXT           "전송 인원 제한 설정",IDC_STATIC_TRANSLIMIT,5,56,80,8
+    LTEXT           "연결 포트",IDC_STATIC_CONN_PORT,15,35,39,8
+    LTEXT           "동시 업로드 허용 인원",IDC_STATIC_UPLOAD,3,74,73,8
+    LTEXT           "동시 다운로드 허용 인원",IDC_STATIC_DOWNLOAD,3,95,74,8
+    LTEXT           "최대 30명",IDC_STATIC_MAX,123,75,35,8
+    LTEXT           "최대 30명",IDC_STATIC_MAX2,123,95,35,8
+END
+
+IDD_DLG_LOGIN DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE WS_POPUP
+FONT 12, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDIT_ID,23,17,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWD,23,35,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHECK_AUTO_LOGIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,73,16,8
+    CONTROL         "",IDC_CHECK_PASSWD_SAVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,72,16,8
+END
+
+IDD_DRAG_DLG_TRANSPARENT DIALOG DISCARDABLE  0, 0, 187, 101
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 12, "Tahoma"
+BEGIN
+END
+
+IDD_DLG_MESSAGE_BOX DIALOG DISCARDABLE  0, 0, 159, 69
+STYLE WS_POPUP
+FONT 12, "Tahoma"
+BEGIN
+END
+
+IDD_DLG_STYLE DIALOG DISCARDABLE  0, 0, 139, 103
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_LIST_STYLE,7,7,48,40,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_SCRAP_MANAGER DIALOGEX 0, 0, 175, 200
+STYLE WS_POPUP
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_SUMMIT,118,139,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Cancel",ID_CANCEL,118,155,50,14,0,WS_EX_TRANSPARENT
+    LISTBOX         IDC_SCRAPLIST,7,20,104,148,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
+    LTEXT           "Static",IDC_STATIC_MSG,7,7,161,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Static",IDC_STATIC_LINKMSG,7,185,161,8,0,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_DLG_OPMLIMPORT DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "OK",IDC_BTN_OK,72,57,50,14
+    PUSHBUTTON      "CANCEL",IDC_BTN_CANCEL,130,57,50,14
+    EDITTEXT        IDC_EDIT_OPMLLOCATION,7,29,105,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    PUSHBUTTON      "...",IDC_BTN_FILEDLG,121,29,26,14
+    LTEXT           "OPML 파일 또는 URL을 입력해주세요.",IDC_STATIC_COMMENT,
+                    7,16,135,8
+END
+
+IDD_DLG_PROP_STYLE DIALOG DISCARDABLE  0, 0, 181, 138
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "리스트 보기 시 본문내용 모두 보기",IDC_CHECK_SUMMARY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,36,138,10
+    EDITTEXT        IDC_EDIT_PAPERSTYLE,6,63,135,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_FILEDLG,147,63,14,14
+    LTEXT           "페이퍼 스타일",IDC_STATIC_PAPERSTYLE,6,52,51,8
+    LTEXT           "스타일 설정",IDC_STATIC_STYLE,5,6,43,8
+    LTEXT           "본문내용",IDC_STATIC_SUMMARY,6,23,94,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,12
+ PRODUCTVERSION 1,0,0,12
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "RSS Reader based on P2P Search Engine\0"
+            VALUE "CompanyName", "OnNet Co., Ltd.\0"
+            VALUE "FileDescription", "FISH - RSS Reader\0"
+            VALUE "FileVersion", "1, 0, 0, 12\0"
+            VALUE "InternalName", "FISH Project\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FISH.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "OnNet\0"
+            VALUE "ProductVersion", "1, 0, 0, 12\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_VIEW_INFORMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_DLG_INFORMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_DLG_RSSLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DLG_RSSMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DLG_EXPLORERBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_REPOSITORY_ITEM_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 9
+        RIGHTMARGIN, 251
+        TOPMARGIN, 17
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_VIEW_NAVIGATIONPANE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_DLG_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_DLG_PROP_GENERAL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DRAG_DLG_TRANSPARENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_DLG_MESSAGE_BOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_DLG_STYLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 132
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DLG_SCRAP_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DLG_OPMLIMPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DLG_PROP_STYLE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 180
+        BOTTOMMARGIN, 137
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_INFORMATION_TAB_COPY CURSOR  DISCARDABLE     "view_tabctrl\\icons\\copyitem.cur"
+IDC_INFORMATION_TAB_MOVE CURSOR  DISCARDABLE     "view_tabctrl\\icons\\moveitem.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XSLT
+//
+
+IDR_DEFAULT_XSLT        XSLT    DISCARDABLE     "res\\default.xslt"
+IDR_POSTSAVE_XSLT       XSLT    DISCARDABLE     "res\\postsavestyle.xslt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_BROWSER DLGINIT
+BEGIN
+    IDC_EXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1b2f, 0x0000, 0x0c9c, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 소켓 초기화에 실패하였습니다."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "FISH\n\nFISH\n\n\nFISH.Document\nFISH Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "FISH"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 작성합니다\n새 파일"
+    ID_FILE_OPEN            "기존 문서를 엽니다\n열기"
+    ID_FILE_CLOSE           "현재 열린 문서를 닫습니다\n닫기"
+    ID_FILE_SAVE            "현재 열린 문서를 저장합니다\n저장"
+    ID_FILE_SAVE_AS         "현재 열린 문서를 다른 이름으로 저장합니다\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다\n쪽 설정"
+    ID_FILE_PRINT_SETUP     "프린터와 인쇄 옵션을 변경합니다\n인쇄 설정"
+    ID_FILE_PRINT           "현재 열린 문서를 인쇄합니다\n인쇄"
+    ID_FILE_PRINT_PREVIEW   "쪽 전체를 표시합니다\n인쇄 미리 보기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보와 버전 정보, 저작권 정보를 표시합니다\n정보"
+    ID_APP_EXIT             "응용 프로그램을 종료하기 위해 문서를 저장할 것인지 묻습니다\n종료"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE2       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE3       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE4       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE5       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE6       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE7       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE8       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE9       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE10      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE11      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE12      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE13      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE14      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE15      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE16      "이 문서를 엽니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다\n이전 창"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "현재 열린 창을 나눕니다\n나누기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 부분을 지웁니다\n지우기"
+    ID_EDIT_CLEAR_ALL       "모든 것을 지웁니다\n모두 지우기"
+    ID_EDIT_COPY            "선택 부분을 복사하여 클립보드에 넣습니다\n복사"
+    ID_EDIT_CUT             "선택 부분을 잘라내어 클립보드에 넣습니다\n잘라내기"
+    ID_EDIT_FIND            "지정한 문자열을 찾습니다\n찾기"
+    ID_EDIT_PASTE           "클립보드의 내용을 붙여 넣습니다\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막으로 실행한 동작을 반복합니다\n반복"
+    ID_EDIT_REPLACE         "지정한 문자열을 다른 문자열로 바꿉니다\n바꾸기"
+    ID_EDIT_SELECT_ALL      "문서 전체를 선택합니다\n전체 선택"
+    ID_EDIT_UNDO            "마지막으로 한 동작을 취소합니다\n실행 취소"
+    ID_EDIT_REDO            "이전에 취소한 동작을 다시 수행합니다\n다시 실행"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 보이거나 감춥니다\n도구 모음 전환"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 감춥니다\n상태 표시줄 전환"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다\n미리 보기 취소"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\FISH.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#include "l.kor\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

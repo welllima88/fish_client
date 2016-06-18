@@ -1,0 +1,56 @@
+
+	// FISH.idl : IDL source for FISH.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (FISH.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+//#include "olectl.h"
+#include "DispIds.h"
+
+	[
+		object,
+		uuid(7DA16FF0-17A4-4F53-B646-8485AAA0A9D8),
+		dual,
+		helpstring("IFISHIEControl Interface"),
+		pointer_default(unique)
+	]
+	interface IFISHIEControl : IDispatch
+	{
+		[id(DISPID_SAYHELLO), helpstring("method SayHello")] HRESULT SayHello();
+		[id(DISPID_GETHWND), helpstring("method GetHwnd")] HRESULT GetHwnd(long* phwnd);
+		[id(DISPID_SETPARENT), helpstring("method SetIEParent")] HRESULT SetIEParent(long h);
+		[id(DISPID_SCRAP), helpstring("method Scrap")] HRESULT Scrap(long postid);
+		[id(DISPID_SUBSCRIBE), helpstring("method Subscribe")] HRESULT Subscribe(VARIANT *link);
+		[id(DISPID_READPOST), helpstring("method ReadPost")] HRESULT ReadPost(long postid);
+		[id(DISPID_GETWB), helpstring("method GetWBIDispatch")] HRESULT GetWBIDispatch(LPDISPATCH * lpid);
+		[id(DISPID_READON), helpstring("method ReadOn")] HRESULT ReadOn(long postid);
+		[propget, id(1), helpstring("property Busy")] HRESULT Busy([out, retval] BOOL *pVal);
+		[propget, id(2), helpstring("property Document")] HRESULT Document([out, retval] LPDISPATCH *pVal);
+		[id(4), helpstring("method SetLink2NewWindow")] HRESULT SetLink2NewWindow(BOOL bnew);
+		[id(5), helpstring("method SetTempBypass")] HRESULT SetTempBypass(BOOL bpass);
+		[id(6), helpstring("method SetMainWnd")] HRESULT SetMainWnd(long h);
+		HRESULT Stop();
+		HRESULT Run();
+	};
+	
+
+[
+	uuid(EC2EB015-3D57-47A0-B795-10D7644582D1),
+	version(1.0),
+	helpstring("FISH 1.0 Type Library")
+]
+library FISHLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(45464D6E-37CE-4604-BF8D-B5F68564E62A),
+		helpstring("TestIEControl Class")
+	]
+	coclass FISHIEControl
+	{
+		[default] interface IFISHIEControl;
+	};
+};

@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FISH - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_UNICODE" /Fp"Debug/FISH.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\Dlg_Browser.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\view_listctrl\fishlistctrl.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\FocusManager.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\MainFrm.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\ResultManager.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\ScrapManager.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\SearchManager.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\View_Information.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\view_navigationpane\View_NavigationPane.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\view_repository\RepositoryTreeCtrl.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\Dlg_Subscribe.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\view_repository\repositoryitempropertydlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP13.tmp" 
+Creating temporary file "C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_UNICODE" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\ezparser_util.cpp"
+"C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\timeconvert.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP14.tmp" 
+Creating temporary file "C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+Winmm.lib Wininet.lib Version.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/FISH.pdb" /debug /machine:I386 /out:"Debug/FISH.exe" /pdbtype:sept 
+".\Debug\ACEdit.obj"
+".\Debug\ACListWnd.obj"
+".\Debug\ChgPortDlg.obj"
+".\Debug\CJFlatComboBox.obj"
+".\Debug\CustomDlg.obj"
+".\Debug\CustomListBox.obj"
+".\Debug\Custsite.obj"
+".\Debug\DateParser.obj"
+".\Debug\DirDialog.obj"
+".\Debug\Dlg_Browser.obj"
+".\Debug\Dlg_ExplorerBar.obj"
+".\Debug\Dlg_Login.obj"
+".\Debug\Dlg_MessageBox.obj"
+".\Debug\Dlg_OpmlImport.obj"
+".\Debug\Dlg_Prop_General.obj"
+".\Debug\Dlg_Prop_Network.obj"
+".\Debug\Dlg_Prop_Style.obj"
+".\Debug\Dlg_Properties.obj"
+".\Debug\Dlg_PropUnit.obj"
+".\Debug\Dlg_RSSList.obj"
+".\Debug\Dlg_RSSMain.obj"
+".\Debug\Dlg_Search.obj"
+".\Debug\Dlg_Style.obj"
+".\Debug\ExceptionHandler.obj"
+".\Debug\ezparser_util.obj"
+".\Debug\EzXMLParser.obj"
+".\Debug\FeedControl.obj"
+".\Debug\Feeder.obj"
+".\Debug\FeedParser.obj"
+".\Debug\FISH.obj"
+".\Debug\fish_common.obj"
+".\Debug\FISHDoc.obj"
+".\Debug\FishLinkManager.obj"
+".\Debug\FishListBox.obj"
+".\Debug\fishlistctrl.obj"
+".\Debug\FishTransparentDragDlg.obj"
+".\Debug\FocusManager.obj"
+".\Debug\GlobalFunctions.obj"
+".\Debug\HistoryCombo.obj"
+".\Debug\HtmlMaker.obj"
+".\Debug\Idispimp.obj"
+".\Debug\LocalProperties.obj"
+".\Debug\MainFrm.obj"
+".\Debug\NetBitmap.obj"
+".\Debug\NetButton.obj"
+".\Debug\NetDib.obj"
+".\Debug\OPMLSock.obj"
+".\Debug\RcmmWordWnd.obj"
+".\Debug\ResultManager.obj"
+".\Debug\RSSCurrentList.obj"
+".\Debug\RSSDB.obj"
+".\Debug\RSSURL.obj"
+".\Debug\ScrapManager.obj"
+".\Debug\SearchManager.obj"
+".\Debug\SSplitter.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TagManager.obj"
+".\Debug\TaskbarNotifier.obj"
+".\Debug\timeconvert.obj"
+".\Debug\Tray.obj"
+".\Debug\TreeSkinVerticalScrollbar.obj"
+".\Debug\URLEncode.obj"
+".\Debug\View_Information.obj"
+".\Debug\View_NavigationPane.obj"
+".\Debug\webbrowser2.obj"
+".\Debug\WebText.obj"
+".\Debug\CustomTabCtrl.obj"
+".\Debug\ThemeUtil.obj"
+".\Debug\MultipleSelectionTree.obj"
+".\Debug\RepositoryTreeCtrl.obj"
+".\Debug\FishHeaderCtrl.obj"
+".\Debug\SkinHeaderCtrl.obj"
+".\Debug\SkinHorizontalScrollbar.obj"
+".\Debug\SkinListCtrl.obj"
+".\Debug\SkinVerticleScrollbar.obj"
+".\Debug\Dlg_Subscribe.obj"
+".\Debug\repositoryitempropertydlg.obj"
+".\Debug\CFishComboBox.obj"
+".\Debug\GlobalIconManager.obj"
+".\Debug\MaskBlt.obj"
+".\Debug\md5e.obj"
+".\Debug\Common.obj"
+".\Debug\Conversions.obj"
+".\Debug\FileLock.obj"
+".\Debug\FileTypes.obj"
+".\Debug\GnuControl.obj"
+".\Debug\GnuDoc.obj"
+".\Debug\GnuDownload.obj"
+".\Debug\GnuDownloadShell.obj"
+".\Debug\GnuLocal.obj"
+".\Debug\GnuNode.obj"
+".\Debug\GnuRouting.obj"
+".\Debug\GnuSock.obj"
+".\Debug\GnuUpload.obj"
+".\Debug\GnuUploadShell.obj"
+".\Debug\Packet.obj"
+".\Debug\Sha1.obj"
+".\Debug\GetHttp.obj"
+".\Debug\httpd.obj"
+".\Debug\irc_utils.obj"
+".\Debug\IrcdManager.obj"
+".\Debug\IrcSocket.obj"
+".\Debug\FISH.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\sapius\LOCALS~1\Temp\RSP15.tmp"
+<h3>Output Window</h3>
+Compiling...
+Dlg_Browser.cpp
+C:\Documents and Settings\sapius\πŸ≈¡ »≠∏È\FISHClient\Dlg_Browser.cpp(12) : fatal error C1083: Cannot open include file: 'strsafe.h': No such file or directory
+fishlistctrl.cpp
+View_NavigationPane.cpp
+Dlg_Subscribe.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+FocusManager.cpp
+MainFrm.cpp
+ResultManager.cpp
+ScrapManager.cpp
+SearchManager.cpp
+View_Information.cpp
+RepositoryTreeCtrl.cpp
+repositoryitempropertydlg.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+FISH.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{B2203FE0-E8AE-4AB4-9C1D-8BAE60A819B8} = s 'FISH'
+		'FISH.EXE'
+		{
+			val AppID = s {B2203FE0-E8AE-4AB4-9C1D-8BAE60A819B8}
+		}
+	}
+}
